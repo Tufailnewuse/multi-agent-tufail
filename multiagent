@@ -19,7 +19,7 @@ from agents import OpenAIChatCompletionsModel, RunConfig, Runner, Agent
 from agents import AsyncOpenAI
 
 external_client = AsyncOpenAI(
-    api_key=("AIzaSyB9mWAo9S4JKyZcwevDxOuor_Dhfelp8Cg"),
+    api_key=("GIMINI_API_KEY"),
     base_url="https://generativelanguage.googleapis.com/v1beta/openai/"
 )
 
